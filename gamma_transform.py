@@ -30,6 +30,7 @@ plt.imshow(gr4)
 f.add_subplot(2,4, 6).title.set_text('Gamma Corrected with γ='+str(0.5))
 plt.imshow(gr5)
 f.add_subplot(2,4, 7).title.set_text('Gamma Corrected with γ='+str(0.25))
+
 plt.imshow(gr6)
 
 plt.show(block=True)
